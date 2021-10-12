@@ -1,7 +1,9 @@
 .header {
   .background-1,
   .background-2,
-  .background-3 {
+  .background-3,
+  .background-4,
+  .background-5 {
     max-width: 1920px;
     height: 1080px;
     background-repeat: no-repeat;
@@ -19,6 +21,12 @@
 
   .background-3 {
     background-image: url("../images/fondo.png"), url("../images/GLOBOS2.jpg");
+  }
+  .background-4 {
+    background-image: url("../images/fondo.png"), url("../images/BODAS3.jpg");
+  }
+  .background-5 {
+    background-image: url("../images/fondo.png"), url("../images/INFANTILES3.jpg");
   }
 
   .banner {
@@ -182,7 +190,9 @@
   @media (min-width: 0px) and (max-width: 960px) {
     .background-1,
     .background-2,
-    .background-3 {
+    .background-3, 
+    .background-4,
+    .background-5{
       max-width: 1920px;
       height: 580px;
     }
@@ -232,7 +242,7 @@
         }
 
         .banner-items {
-          padding: 20px;
+          padding: 10px;
           .icon {
             font-size: 3rem;
           }
@@ -244,7 +254,7 @@
 
 .extra {
   h2 {
-    padding: 80px;
+    padding: 30px;
     text-align: center;
     font-size: 3.6rem;
   }

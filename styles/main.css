@@ -67,8 +67,8 @@ a {
   color: white;
 }
 
-.celular {
-  color: #14274a;
+h5 {
+  font-size: 8rem;
 }
 
 .wrapper {
@@ -78,7 +78,9 @@ a {
 
 .header .background-1,
 .header .background-2,
-.header .background-3 {
+.header .background-3,
+.header .background-4,
+.header .background-5 {
   max-width: 1920px;
   height: 1080px;
   background-repeat: no-repeat;
@@ -93,6 +95,12 @@ a {
 }
 .header .background-3 {
   background-image: url("../images/fondo.png"), url("../images/GLOBOS2.jpg");
+}
+.header .background-4 {
+  background-image: url("../images/fondo.png"), url("../images/BODAS3.jpg");
+}
+.header .background-5 {
+  background-image: url("../images/fondo.png"), url("../images/INFANTILES3.jpg");
 }
 .header .banner .navegation {
   display: flex;
@@ -223,7 +231,9 @@ a {
 @media (min-width: 0px) and (max-width: 960px) {
   .header .background-1,
 .header .background-2,
-.header .background-3 {
+.header .background-3,
+.header .background-4,
+.header .background-5 {
     max-width: 1920px;
     height: 580px;
   }
@@ -263,7 +273,7 @@ a {
     width: 100%;
   }
   .header .banner .banner-container .banner-items {
-    padding: 20px;
+    padding: 10px;
   }
   .header .banner .banner-container .banner-items .icon {
     font-size: 3rem;
@@ -271,7 +281,7 @@ a {
 }
 
 .extra h2 {
-  padding: 80px;
+  padding: 30px;
   text-align: center;
   font-size: 3.6rem;
 }
@@ -372,6 +382,9 @@ a {
     order: 2;
   }
   .article .container h2 {
+    font-size: 3rem;
+  }
+  .article .container h5 {
     font-size: 3rem;
   }
   .article .container p {
