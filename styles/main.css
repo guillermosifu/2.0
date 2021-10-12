@@ -67,6 +67,10 @@ a {
   color: white;
 }
 
+.celular {
+  color: #14274a;
+}
+
 .wrapper {
   max-width: 1920px;
   margin: auto;
@@ -463,7 +467,7 @@ a {
 }
 .footer div li a {
   text-decoration: none;
-  color: ;
+  color: white;
 }
 .footer div li a i {
   margin-right: 20px;
@@ -478,13 +482,13 @@ a {
   border: 1px solid #e0b973;
   border-radius: 0;
   background-color: transparent;
-  
+  color: white;
 }
 .footer div .suscribe input:focus {
   outline: none;
 }
 .footer div .suscribe input::-moz-placeholder {
-  color: transparent;
+  color: white;
 }
 .footer div .suscribe input:-ms-input-placeholder {
   color: white;

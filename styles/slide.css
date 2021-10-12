@@ -1,0 +1,18 @@
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    background-color:white;
+    width: 800px;
+    padding:30px;
+}
+
+ul,li{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+}
