@@ -365,7 +365,7 @@ h5 {
   width: 100%;
   display: block;
 }
-@media (min-width: 0px) and (max-width: 1560px) {
+@media (min-width: 0px) and (max-width: 1200px) {
   .article {
     padding-left: 25px;
     padding-right: 25px;
